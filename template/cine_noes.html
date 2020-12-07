@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <!-- responsive reconnaissance ecran --->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- responsive reconnaissance ecran --->
+
+    <!-- Feuille de style générale-->
+    <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="formulaire-for-php.css">
+    <script src="https://kit.fontawesome.com/40784288a5.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+<nav id="menu">
+    <ul class="center">
+        <li>
+            <a class="menu-link" href="index.html">
+                <span>
+                    <i class="fas fa-home"></i> <!-- Affiche l'icone Home à partir du
+                    lien fas fa-home défini sur internet fontawesome.com--->
+                </span> <!-- class="link-icon" était présent dans le span--->
+                <span class="link-text">Accueil</span>
+            </a>
+        </li>
+        <li>
+            <a class="menu-link" href="#">
+                <span>
+                    <i class="fas fa-info-circle"></i>
+                </span>
+                <span class="link-text">Informations</span>
+            </a>
+        </li>
+        <li>
+            <a class="menu-link" href="#">
+                <span>
+                    <i class="fas fa-file-signature"></i>
+                </span>
+                <span class="link-text">Contact</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+<header>
+    <!--
+    -> Image d eprésentation
+   -> Titre du site /de lapage
+   --->
+    <h1 id="main-title">Ciné Noès</h1>
+    <h1 id="main-title-2">Année 2020</h1>
+    <img id="phone-image" src="../assets/images/cine_noes.JPG" alt="Image d'entête"/>
+    <img  id="pc-image" src="../assets/images/cine_noes.JPG" alt="Image d'entête"/>
+</header>
+
+
+<!-- 1 seul par page; élément principal de lapage --->
+<main class="center">
+ 
+</main>
+
+<!-- contenu secondaire presentation du site--->
+<!-- Présentation du site--->
+
+<aside class="center">
+    <h2>Le comité de quartier de Noès</h2>
+    <div id="aproposde">
+        <!--
+        <img  src="../assets/images/logo-NOES.png" alt="Description du site"/>
+        -->
+        <p>Le comité de quartier de Noès est une association de loi 1901 créé en 1933. Depuis plus de 80 ans, ces adhérants animent, défendent le quartier.</p>
+    </div>
+     <form action="formulaire2-for-php.php" method="post">
+            <div class="c100">
+                <label for="prenom">Prénom : </label>
+                <input type="text" id="prenom" name="prenom">
+            </div>
+            <div class="c100">
+                <label for="nom">Nom : </label>
+                <input type="text" id="nom" name="nom">
+            </div>
+            <div class="c100">
+                <label for="mail">Email : </label>
+                <input type="email" id="mail" name="mail">
+            </div>
+            <div class="c100">
+                <label for="age">Age : </label>
+                <input type="number" id="age" name="age">
+            </div>
+            <div class="c100">
+                <input type="radio" id="feminin" name="sexe" value="feminin">
+                <label for="feminin">Féminin</label>
+                <input type="radio" id="masculin" name="sexe" value="masculin">
+                <label for="masculin">Masculin</label>
+            </div>
+            <div class="c100">
+                <label for="adresse">Adresse : </label>
+                <input type="text" id="adresse" name="adresse">
+            </div>
+           <div class="c100">
+                <label for="ville">Ville : </label>
+                <input type="text" id="ville" name="ville">
+            </div>
+            <div class="c100" id="submit">
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+</aside>
+
+<footer class="footer">
+    <div class="center flex-container">
+        <div class="footer-content">
+            <h3>Nous suivre</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/comitequartierdenoes/"> Facebook</a></li>
+            </ul>
+        </div >
+        <div class="footer-content">
+            <h3>Nous connaître</h3>
+            <ul>
+                <li><a href="#">comite-noes@laposte.net</a></li>
+                <li><a href="#">+33(0)663620194</a></li>
+                <li><a href="#">Maison municipale, rue Pierre Brossolette 33600 Pessac</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
