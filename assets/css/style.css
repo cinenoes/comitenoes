@@ -38,7 +38,8 @@ body * {
     box-sizing: border-box; /* body µ pour tout les enfants; les élémnets taille de border*/
 }
 h1 {
-    color: var(--main-color);
+    /*color: var(--main-color);*/
+    color: #FFFFFF;
     font-family: var(--title-font);
     font-size: 2.5em;
 
