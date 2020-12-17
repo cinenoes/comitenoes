@@ -14,7 +14,7 @@
     --secondary-font: 'Lexend Mega', sans-serif;
     --dark-color: rgba(91, 81, 65, 0.47);
     --light-color: #D2C7BE;
-    --main-color: #8F856E;
+    --main-color: #000000;/*#8F856E;*/
     --main-light-color: white;
     --highlight-color: #DBD9CB;
 }
